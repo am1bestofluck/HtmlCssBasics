@@ -1,0 +1,61 @@
+/* #1 removing link underilne */
+
+a {
+    text-decoration: none;
+}
+
+.link_walk {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.header_main {
+    color: #db9ddb;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 800;
+}
+
+.text_main {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #b0a8c6;
+}
+
+.h2_main {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+
+.about_img {
+    border-radius: 10px;
+    width: 9cm;
+}
+
+.feedback_input {
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.feedback_button {
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+body {
+    font-family: sans-serif;
+}
