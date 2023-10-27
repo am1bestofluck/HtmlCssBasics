@@ -1,0 +1,61 @@
+a {
+    text-decoration: none;
+    }
+
+.ide-split-screen--through-screen {
+    width: 100%;
+}
+
+.logical-name {
+    border-width: 1px 5px;
+    border-color: blueviolet;
+    border-radius: 5%;
+    border-style: dotted;
+    background-color: rgb(247, 230, 241);
+}
+
+.quote__main, .quote__author{
+    font-style: italic;
+}
+
+.quote__main {
+    text-align: center;
+
+}
+
+.quote__author {
+    text-align: right;
+}
+
+.dev__note {
+    text-align: justify;
+}
+
+.link--main {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.header--1 {
+    color: #693f3f;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.content--main {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987
+}
+
+.header--2 {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
