@@ -1,3 +1,4 @@
+
 расшифровка свойств сss:
 display: inline; display:block;	inline убирает отступы, block обрамляет отступами
 
