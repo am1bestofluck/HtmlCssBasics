@@ -21,7 +21,7 @@ a {
 .content {
     display: flex;
     margin: auto;
-    width: 65%;
+    width: 1274px;
     border: 1px;
     border-style: solid;
     border-color: #E99C08;
@@ -63,30 +63,47 @@ a {
     color: #000;
 }
 
-.button--sell,
-.button--view {
+.button--sell {
     overflow-wrap: normal;
     border-radius: 50px;
-    width: 76px;
     height: 50px;
-    /* border-color: rgba(red, green, blue, 0); */
-}
-
-.button--sell {
+    font-family: "Gilroy-B";
+    font-size: 15px;
     background-color: #F25822;
     color: #fff;
+    width: 140px;
+    box-shadow: 4px 4px 8px #F25822;
+    border-width: 0px;
 }
 
 .button--view {
+    font-family: "Gilroy-B";
+    font-size: 15px;
     color: #aaa;
     background-color: #fff;
+    width: 95px;
+    line-break: strict;
+    border-width: 0px;
+    border-radius: 50px;
+}
+
+.butspacing {
+    display: inline-block;
+    width: 10px;
 }
 
 .content__gate {
     display: inline-block;
     border-color: #BD0EFB;
     border-width: 1px;
-    width: 45%;
+    width: 589px;
+}
+
+.content__gate__input {
+    width: 374px;
+    border-color: #FF1DA4;
+    border-width: 1px;
+    height: 94px;
 }
 
 .content--image {
@@ -116,12 +133,25 @@ a {
 }
 
 .content__header {
-    font-family: gilroy;
-    font-weight: 400;
-    font-size: larger;
+    font-family: "Gilroy-B";
+    font-size: 60px;
+    width: 522px;
+}
+
+.content__note {
+    width: 466px;
+    font-family: "Gilroy-Reg";
+    font-size: 20px;
+    color: #888888;
 }
 
 @font-face {
-    font-family: gilroy;
-    src: url("https://fonts.cdnfonts.com/css/gilroy-bold");
+    font-family: "Gilroy-Med";
+    src: local(Gilroy-Medium);
+    font-family: "Gilroy-Reg";
+    src: local(Gilroy-Regular);
+    font-family: "Gilroy-SB";
+    src: local(Gilroy-SemiBold);
+    font-family: "Gilroy-B";
+    src: local(Gilroy-Bold);
 }
