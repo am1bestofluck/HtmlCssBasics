@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.BRAND {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.menu_bar {
+    margin: 0 auto;
+    width: 1170px;
+    border: 1px solid;
+}
+
+.BG {
+    background-image: h;
+}
+
+.BRANDLOGO {
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 88px auto 85px auto;
+}
+
+.brand_pr {
+    width: 160px;
+    height: 50px;
+}
+
+.HOME_PAGE {
+    background-color: ;
+}
