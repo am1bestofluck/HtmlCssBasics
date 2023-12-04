@@ -15,8 +15,10 @@
 }
 
 .menu_bar {
-    margin: 0 auto;
-    width: 1170px;
+    margin-top: 37px;
+    margin-left: 370px;
+    margin-right: 370px;
+    height: 40px;
     border: 1px solid;
 }
 
