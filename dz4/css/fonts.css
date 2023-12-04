@@ -1,28 +1,43 @@
 @font-face {
-	font-family: gilroy--bold;
-	src: local(Gilroy-Regular);
-	font-family: gilroy--medium;
-	src: local(Gilroy-Medium);
-	font-family: gilroy--semiBold;
-	src: local(Gilroy-SemiBold);
-	font-family:gilroy--bold;
-	src: local(Gilroy-Bold)
+    font-family: gilroy--bold;
+    src: local(Gilroy-Regular);
+    font-family: gilroy--medium;
+    src: local(Gilroy-Medium);
+    font-family: gilroy--semiBold;
+    src: local(Gilroy-SemiBold);
+    font-family: gilroy--bold;
+    src: local(Gilroy-Bold)
 }
 
-.menu_bar--logo{
-	font-family:gilroy--bold;
-	width: 140px;
-	height: 40px;
+.menu_bar--logo {
+    display: flex;
+    font-family: gilroy--bold;
+    width: 140px;
+    height: 40px;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
 }
 
 .menu_bar--logo--black {
-	color: #000;
+    color: #000;
 }
 
-.menu_bar--logo--orange{
-	color: #F25822;
+.menu_bar--logo--orange {
+    display: inline;
+    color: #F25822;
 }
 
-/* .menu_bar--logo--text {
-	margin: auto; */
-/* } */
+.menu_bar--logo--text {
+    display: inline-block;
+}
+
+.menu_bar--menu {
+    margin-left: 500px;
+    display: flex;
+}
+
+.menu_bar {
+    display: flex;
+}

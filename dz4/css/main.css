@@ -13,7 +13,7 @@
     align-items: center;
     align-content: center;
 }
-j
+
 .menu_bar {
     margin-top: 37px;
     margin-left: 370px;
@@ -34,7 +34,7 @@ j
     align-content: center;
     justify-content: center;
     align-items: center;
-    margin: 88px auto 85px auto;
+    /* margin: 88px auto 85px auto; */
 }
 
 .brand_pr {
@@ -42,6 +42,4 @@ j
     height: 50px;
 }
 
-.HOME_PAGE {
-    background-color: ;
-}
+.HOME_PAGE {}
