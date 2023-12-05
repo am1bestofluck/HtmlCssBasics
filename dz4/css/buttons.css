@@ -1,0 +1,15 @@
+.but {
+	width: 140px;
+	height: 50px;
+	border-radius: 50px;
+}
+
+.yes {
+	background-color: #F25822;
+	color: #fff;
+}
+
+.maybe {
+	background-color: rgba(1,1,1,0);
+	color: #AAA;
+}
