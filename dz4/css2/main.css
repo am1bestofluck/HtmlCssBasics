@@ -1,79 +1,93 @@
 * {
-	margin: 0;
-	padding: 0;
-	/* border: 1px red solid; */
+    margin: 0;
+    padding: 0;
+    /* border: 1px red solid; */
 }
-body {	
-	display: flex;
-	flex-direction: row;
+
+body {
+    display: flex;
+    flex-direction: row;
     flex-wrap: nowrap;
     align-content: center;
     align-items: center;
     justify-content: center;
-    gap: 10vw;
-
+    /* gap: 10vw; */
 }
+
 .item {
-	position: relative;
-	height: 290px;
-	width: 380px;
-	margin-top: 20vw;
-	margin-bottom: 20vw;
-	margin: 1px solid black;
-
+    position: relative;
+    margin-top: 20vw;
+    margin-bottom: 20vw;
+    margin: 1px solid black;
 }
 
-.features--left, .features--mid, .features--right {
-	position: relative;
-	margin: 40px;
-	display: flex;
-	flex-direction: column;
-    flex-wrap: wrap;
+.features--left,
+.features--mid,
+.features--right {
+    position: relative;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
     justify-content: space-between;
     align-items: flex-start;
-	border: 1px black solid;
+    border: 1px black solid;
+    height: 290px;
+    width: 380px;
 }
+
 .features--left {
-	margin-left: 350px;
+    margin-left: 350px;
 }
 
 .features--right {
-	margin-right: 350px;
+    margin-right: 350px;
+}
+
+.header,
+.note,
+.next {
+    margin-left: 40px;
 }
 
 .header {
-	text-transform: capitalize;
-	margin-top: 25px;
-	margin-bottom: 17px;
+    text-transform: capitalize;
+    margin-top: 25px;
+    margin-bottom: 17px;
 }
 
 .note {
-	margin-bottom: 25px;
-
+    margin-bottom: 25px;
 }
+
 .next {
-	margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
-.pickbg--red, .pickbg--green, .pickbg--orange {
-	border-radius: 15px;
-	width: 70px;
-	height: 70px;
-	display: flex;
-	flex-direction: column;
+.pickbg--red,
+.pickbg--green,
+.pickbg--orange {
+    border-radius: 15px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+    margin-left: 40px;
+    margin-top: 35px;
+    margin-bottom: 25px;
 }
 
 .pickbg--red {
-	background-color: rgba(242,48,34,25%);
+    background-color: rgba(242, 48, 34, 25%);
 }
 
 .pickbg--green {
-	background-color: rgba(20,146,17,28%);
+    background-color: rgba(20, 146, 17, 28%);
 }
 
 .pickbg--orange {
-	background-color: rgba(255,205,29,24%);
+    background-color: rgba(255, 205, 29, 24%);
 }
