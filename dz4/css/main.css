@@ -14,16 +14,27 @@
     align-content: center;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .menu_bar {
     margin-top: 37px;
     margin-left: 370px;
     margin-right: 370px;
     height: 40px;
-    border: 1px solid;
+    gap: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
 }
 
 .BG {
-    background-image: h;
+    background-image: none;
 }
 
 .BRANDLOGO {

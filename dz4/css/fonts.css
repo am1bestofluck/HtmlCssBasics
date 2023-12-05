@@ -34,10 +34,15 @@
 }
 
 .menu_bar--menu {
-    margin-left: 500px;
     display: flex;
+    gap: 20px
 }
 
 .menu_bar {
     display: flex;
+}
+
+.whitespace {
+    flex-grow: 1;
+    border: 1px solid salmon;
 }
