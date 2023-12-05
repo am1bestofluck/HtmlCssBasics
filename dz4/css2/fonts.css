@@ -1,0 +1,34 @@
+@font-face {
+	font-family: gilroy-bold;
+	src: local(Gilroy-Bold);
+	font-family: gilroy-regular;
+	src:local(Gilroy-Regular);
+}
+
+.header {
+	font-family: gilroy-bold;
+	font-size: 24px;
+	line-height: 29px;
+}
+
+.note {
+	font-family: gilroy-regular;
+	font-size: 15px;
+	line-height: 23px;
+
+}
+
+.next {
+	font-family: gilroy-bold;
+	font-size: 11px;
+	line-height: 17px;
+}
+
+
+a {
+	font-size: inherit;
+	text-decoration: none;
+	font-family: inherit;
+	color: inherit;
+	color:inherit;
+}

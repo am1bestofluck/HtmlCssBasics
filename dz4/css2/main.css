@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	padding: 0;
+	/* border: 1px red solid; */
+}
+body {	
+	display: flex;
+	flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10vw;
+
+}
+.item {
+	position: relative;
+	height: 290px;
+	width: 380px;
+	margin-top: 20vw;
+	margin-bottom: 20vw;
+	margin: 1px solid black;
+
+}
+
+.features--left, .features--mid, .features--right {
+	position: relative;
+	margin: 40px;
+	display: flex;
+	flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+	border: 1px black solid;
+}
+.features--left {
+	margin-left: 350px;
+}
+
+.features--right {
+	margin-right: 350px;
+}
+
+.header {
+	text-transform: capitalize;
+	margin-top: 25px;
+	margin-bottom: 17px;
+}
+
+.note {
+	margin-bottom: 25px;
+
+}
+.next {
+	margin-bottom: 30px;
+}
+
+.pickbg--red, .pickbg--green, .pickbg--orange {
+	border-radius: 15px;
+	width: 70px;
+	height: 70px;
+	display: flex;
+	flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.pickbg--red {
+	background-color: rgba(242,48,34,25%);
+}
+
+.pickbg--green {
+	background-color: rgba(20,146,17,28%);
+}
+
+.pickbg--orange {
+	background-color: rgba(255,205,29,24%);
+}
