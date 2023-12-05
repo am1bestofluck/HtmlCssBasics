@@ -1,7 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    border: 0;
+    border: 1px red solid;
+    border: 0px;
 }
 
 .BRAND {
@@ -20,14 +21,18 @@ a {
 }
 
 .menu_bar {
-    margin-top: 37px;
+    /* position: absolute; */
+    /* top:37px; */
     margin-left: 370px;
-    margin-right: 370px;
+    margin-top: 37px;
+    justify-content: space-between;
+    /* margin-right: 370px; */
     height: 40px;
-    gap: 200px;
+    gap: 500px;
     display: flex;
-    justify-content: space-around;
-    align-content: space-between;
+    
+    justify-content: flex-start;
+    align-content: center;
     flex-wrap: nowrap;
     flex-direction: row;
     align-items: center;
@@ -38,8 +43,9 @@ a {
 }
 
 .BRANDLOGO {
-    width: 1200px;
+    /* width: 1200px; */
     display: flex;
+    margin-left: 345px;
     flex-direction: row;
     flex-wrap: nowrap;
     align-content: center;
@@ -53,4 +59,39 @@ a {
     height: 50px;
 }
 
-.HOME_PAGE {}
+.mid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.HOME_PAGE {
+    height: 700px;
+    width: 1920px;
+    position: relative;
+}
+.HOME_META {
+    position: absolute;
+    top: 164px;
+    left: 373px;
+    width: 522px;
+    height: 374px;
+    display: grid;
+    grid-template-rows: 3fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: start;
+    align-items: center;
+}
+
+.HOME_META_MAIN{
+    grid-column: 1/-1;
+}
+.HOME_META_SUB {
+    grid-column: 1/-1;
+}
+.META_IMAGE {
+    width: 611px;
+    height: 373px;
+    position: absolute;
+    left: 964px;
+    top: 164px;
+
+}

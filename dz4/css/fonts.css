@@ -46,3 +46,14 @@
     flex-grow: 1;
     border: 1px solid salmon;
 }
+
+.HOME_META_MAIN {
+    font-family: gilroy--bold;
+    font-size: 60px;
+}
+
+.HOME_META_SUB {
+    font-family: gilroy--medium;
+    font-size: 20px;
+    color: #888888;
+}
