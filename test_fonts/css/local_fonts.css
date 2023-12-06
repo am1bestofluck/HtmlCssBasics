@@ -1,0 +1,55 @@
+@font-face {
+	font-family: "cursive_";
+	src: local("BickhamScriptPro-SemiBold");
+	font-weight: 400;
+	font-family: "main_";
+	src:local("Segoe Script")
+}
+@font-face {
+	font-family: "ff";
+	src: local("Heavenly Christmas Personal Use");
+	/* font-weight: 900; */}
+
+	@font-face {
+	font-family: "ffs";
+	src: local("StencilStd");
+}
+
+* {
+	font-family: "main_";
+	font-size: 24px;
+}
+
+a	{
+	font-family: cursive_;
+	font-size: 10vw;
+}
+
+.bottom_screen {
+	position: fixed;
+	left: 1000px;
+	top: 500px;
+	/* border: solid 1px black; */
+}
+
+
+.f300, .f900 {
+	font-size: 30px;
+}
+
+.f300 {
+	font-family: ff;
+
+}
+
+.f900 {
+	font-family: ffs;
+}
+
+ul {
+	list-style-type: lower-greek;
+}
+
+li {
+	margin-left: 40px;
+}

@@ -1,0 +1,16 @@
+* {
+	margin:0;
+	padding: 0;
+	border: 0;
+	background-color: 	#ffe29b;
+}
+a {
+	text-decoration: none;
+	color:rgb(255,248,231);
+	
+}
+
+.separated {
+	margin-top: 40px;
+	margin-left: 40px;
+}

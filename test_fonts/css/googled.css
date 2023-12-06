@@ -1,0 +1,35 @@
+* {
+	font-size: 34px;
+}
+
+@font-face {
+	font-family: "downloaded_";
+	src: local("Whisper Regular");
+}
+
+.injected {
+	font-family: 'Nova Square', sans-serif;
+}
+
+.bottom_screen {
+	position: fixed;
+	left: 1000px;
+	top: 500px;
+	font-size: 10vw;
+	/* border: solid 1px black; */
+}
+
+.downloaded {
+	font-family: downloaded_;
+
+}
+.u
+
+li {
+	margin-left: 40px;
+}
+
+.note {
+	font-size: 20px;
+	font-family: 'Dancing Script', cursive;
+}

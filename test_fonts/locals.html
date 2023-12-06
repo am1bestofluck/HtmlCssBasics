@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/local_fonts.css">
+</head>
+<body>
+	<div>
+		Ну так и воооот. Локальные шрифты это типа легко. Or are they?<br>
+		внутри @font-face {} нужно:
+		<ul>
+			<li>объявить имя шрифта в поле зрения файла css, и соответственно всех его каркасов(html)</li>
+			<li>в @font-face {} так же нужно указать source:local( "в кавычках _идентификатор шрифта")<br>
+			идентификатор шрифта - 'полное имя' шрифта из библиотеки; обратиться по имени файла
+			 то ли нельзя то ли Я не в курсе..:)</li>
+			<li>По весам.<span class="f900"> There is relation between weight and font, </span><span class="f300">but it's not clear yet.</span></li>
+		</ul> 
+	</div>
+	<div class="separated"></div>Потом под селекторами пишем _идентификаторы из @font-face
+	<div class="bottom_screen"><a href="index.html">Back!</a></div>
+	
+
+</body>
+</html>
