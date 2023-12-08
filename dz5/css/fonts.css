@@ -1,0 +1,8 @@
+@font-face {
+	font-family: gb;
+	src: local(Gilroy-Bold);
+}
+
+.pr__cell--header{
+	font-family: gb;
+}
