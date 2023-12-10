@@ -1,8 +1,18 @@
 @font-face {
-	font-family: gb;
-	src: local(Gilroy-Bold);
+    font-family: gb;
+    src: local(Gilroy-Bold);
 }
 
-.pr__cell--header{
-	font-family: gb;
+.pr__cell--header {
+    font-family: gb;
+}
+
+.column__button {
+    font-size: 15px;
+    font-family: gb;
+}
+
+.pr_cell--more {
+    font-size: 11px;
+    font-family: gb;
 }

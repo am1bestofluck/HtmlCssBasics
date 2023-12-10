@@ -1,24 +1,28 @@
 * {
-	background-color: #FAFAFA;
-	border: 1px solid salmon;
-	margin:0;
-	padding: 0;
+    background-color: #FAFAFA;
+    /* border: 1px solid salmon; */
+    border: 0;
+    margin: 0;
+    padding: 0;
 }
 
-a{
-	text-decoration: inherit;
-	color: inherit;
-	background-color: inherit;
+a {
+    text-decoration: inherit;
+    color: inherit;
+    background-color: inherit;
 }
 
-.content, .header {
-	max-width: 90vw;
-	margin-left: auto;
-	margin-right: auto;
+.content,
+.header {
+    max-width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4%;
 }
+
 .header--table {
     margin-top: 28%;
-	margin-bottom: 28%;
+    margin-bottom: 28%;
     display: flex;
     flex-wrap: nowrap;
     align-content: center;
@@ -27,25 +31,22 @@ a{
     gap: 3%;
 }
 
-
 .header {
-	position: relative;
-	display: flex;
-    border: 2px red;
+    position: relative;
+    display: flex;
+    /* border: 2px red; */
     border-style: dotted;
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
     align-content: center;
-	gap:3%;
-	max-height: 35vh;
-	
-
+    gap: 3%;
+    max-height: 35vh;
 }
 
 .content {
-	margin-top: 1%;
-	max-height: 65vh;
+    margin-top: 1%;
+    max-height: 65vh;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -54,33 +55,58 @@ a{
 }
 
 .promotion--cell {
-	max-width: 15%;
-	overflow-x:hidden;
-
+    max-width: 20%;
+    min-width: 15%;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.5em;
 }
 
 .noshow {
-	display: none;
+    display: none;
 }
 
 .pr__cell--pic {
-	max-width: 3%;
-	max-height: 3%;
+    /* max-width: 3%;
+    max-height: 3%; */
+}
+
+.content--pic {
+    max-width: 18em;
 }
 
 .content__table {
-	grid-template-columns: repeat(3,1fr);
-	display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
     align-content: center;
     justify-content: center;
     justify-items: center;
     align-items: start;
-	max-width: 70%;
-	gap:1.5%;
-
+    max-width: 70%;
+    gap: 1.5%;
 }
 
+.content__table--column {
+    max-width: 20em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
 
-.column--pic{
-
+.column__button {
+    min-height: 3em;
+    max-height: 5em;
+    min-width: 8em;
+    max-width: 12em;
+    border-radius: 2em;
+    background-color: rgba(242, 88, 34, 1);
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
 }
