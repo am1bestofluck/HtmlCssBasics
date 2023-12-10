@@ -3,8 +3,21 @@
     src: local(Gilroy-Bold);
 }
 
+@font-face {
+    font-family: gr;
+    src: local(Gilroy-Regular);
+}
+
 .pr__cell--header {
     font-family: gb;
+}
+
+.pr__cell--note,
+.content__header--sub,
+.column--text {
+    font-family: gr;
+    font-size: 15px;
+    color: rgba(102, 102, 102, 1);
 }
 
 .column__button {
@@ -15,4 +28,13 @@
 .pr_cell--more {
     font-size: 11px;
     font-family: gb;
+}
+
+.content__header--sub {
+    font-size: 16px;
+}
+
+.column--text {
+    font-size: 15px;
+    color: rgba(170, 170, 170, 1);
 }
