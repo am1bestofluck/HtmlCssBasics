@@ -1,0 +1,21 @@
+что вообще делает аттрибут transform	изменяет элемент, как без изменения положения точек относительно друг друга( поворот), так и с ним ( (не)равномерное растягивание/сплющивание, перекос)
+
+что принимает аттрибут transform	transform-функцию, none или константу(inherit?unset?)
+
+пример transform-функции(3 в зачёт)	matrix, perspective, rotate, translate, scale, skew, и их 3d, ось х, ось y производные
+
+transform:matrix()/matrix3d(), суть, аргументы 	ужимает-растягивает элемент по опорным точкам
+
+transform:rotate()/rotate{X/Y/Z}?	крутит элемент вокруг оси
+
+transform:perspective - определяет расстояние от наблюдателя до оси z
+
+transform:scale()/scale3d()/scale{X/Y/Z}()	изменяет размер элемента
+
+transform:translate(x,y)	смещает элемент относительно своей начальной позиции
+
+transform:skew()/skewX/skewY	искажает(перекашивает) элемент
+
+transform:translate()/translate{X/Y/Z/3d}()	перемещает элемент
+
+ставим дочерний absolute-элемент внутри родительского relative ровно по центру	{top:50%, left: 50%; trasform:translate(-50%,-50%)}
