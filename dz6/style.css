@@ -1,0 +1,47 @@
+body {
+    background-color: rgba(241, 228, 230, 1);
+}
+
+.header {
+    background-color: rgba(34, 34, 34, 1);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50vmax;
+    max-height: 10vmax;
+}
+
+.search,
+.bridge {
+    margin-top: 1vmin;
+    margin-bottom: 1vmin;
+    display: flex;
+    background-color: inherit;
+    gap: 2vmax;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.frontline__banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    gap: 4vmax;
+}
+
+.alcash {
+    max-height: 90vmax;
+}
+
+.margin--hot {
+    padding-left: 1vmax;
+    border-left: 1vmax solid rgba(241, 109, 127, 1);
+}
