@@ -152,3 +152,104 @@ body {
     height: 100%;
     text-transform: uppercase;
 }
+
+.Du_Soleil_xD {
+    max-width: 73vmax;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr, repeat(2,17fr);
+    gap:4vmin;
+}
+
+.Du_Soleil_xD--header {
+    grid-column: 1/-1;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+.Du_Soleil_xD--header__main{
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#222222
+
+}
+.Du_Soleil_xD--header__sub{
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#9F9F9F;
+
+}
+
+.punchline {
+    font-family: Lato;
+font-size: 13px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+color: #000;
+}
+
+.boring_details {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5d5d5d;
+
+}
+
+.price_b4_taxes {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#F16D7F;
+
+}
+.title_and_price {
+    padding: 7%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1vmin;
+
+}
+.browse_all {
+    width: 100%;
+}
+
+.more {
+    margin-top: 5vmin;
+    background-color: inherit;
+    display: block;
+    max-width: 14vmax;
+    min-height: 6vmin;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px #FF6A6A solid;
+    color: #FF6A6A;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
