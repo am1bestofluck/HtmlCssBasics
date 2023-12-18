@@ -1,3 +1,8 @@
+@font-face {
+    font-family: lato;
+    src: url("./fonts/Lato-Bold\ \(2\).ttf");
+}
+
 body {
     background-color: rgba(241, 228, 230, 1);
 }
@@ -11,7 +16,7 @@ body {
     justify-content: space-around;
     align-items: center;
     gap: 50vmax;
-    max-height: 10vmax;
+    max-height: 9vmin;
 }
 
 .search,
@@ -35,13 +40,115 @@ body {
     align-content: center;
     flex-wrap: nowrap;
     gap: 4vmax;
+    max-height: 91vmin;
 }
 
 .alcash {
-    max-height: 90vmax;
+    max-height: 91vmin;
 }
 
 .margin--hot {
     padding-left: 1vmax;
     border-left: 1vmax solid rgba(241, 109, 127, 1);
+}
+
+
+.margin--hot__big {
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #222222;
+}
+.margin--hot__small--black {
+
+    font-family: Lato;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #222222;
+}
+.margin--hot__small--pink {
+    font-family: Lato;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F16D7F;
+
+}
+
+.offers_thumbnail {
+    display: grid;
+    gap:2vmax;
+    max-width: 72vmax;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7vmin;
+    margin-bottom: 11vmin;
+    min-height: 56vmin;
+
+}
+
+.wide, .num0, .num1, .num2 {
+    position: relative;
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    filter: brightness(70%);
+}
+.wide {
+    grid-column: 1/-1;
+    background-image: url("./img/num3.png");
+}
+.num0 {
+    background-image: url("img/num0.png");
+}
+.num0__text--discount {
+    filter:brightness(100%);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffff;
+
+}
+
+.num0__text--target {
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #F16D7F;
+
+}
+
+.num1 {
+    background-image: url("img/num1.png");
+}
+
+.num2 {
+    background-image: url("img/num2.png");
+}
+
+.frontline__banner--inside {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    height: 100%;
+    text-transform: uppercase;
 }
