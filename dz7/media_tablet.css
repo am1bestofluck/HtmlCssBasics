@@ -86,6 +86,25 @@
 		gap:2vw;
 
 	}
+
+	.Du_Soleil_xD--header__main {
+		font-family: Lato;
+		font-size: 30px;
+		font-weight: 400;
+		line-height: 36px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+
+	.Du_Soleil_xD--header__sub {
+		font-family: Lato;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 17px;
+		letter-spacing: 0em;
+		text-align: left;
+	}	
+
 	
 	.oh_my_lol_pic {
 		width: 100%;
