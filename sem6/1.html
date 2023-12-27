@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="source/styles/main.css">
+</head>
+
+<body>
+    <form class="regform" action="#">
+        <p>Введите имя: <input required autofocus type="text" pattern="[a-zA-Zа-яА-ЯЁё]{2,}" value="имя"><br></p>
+        <p>Введите mail: <input required type="email" value="email@exa.gov"><br></p>
+        <p>Введите пароль: <input required type="password"><br></p>
+        <p>Введите дату рождения: <input required type="date"><br></p>
+        <p>Введите номер-телефона: <input required type="text" pattern="0[\d]{8}"><br></p>
+        <p>Введите сколько хотите к/сек: <input required type="range" min="1" max="10"><br></p>
+        <input type="submit" value="OK!">
+    </form>
+    <p>.regform::before { content: "booorder" }
+        <br></p>
+    <h3>вот у этого смысол кокой?</h3>
+</body>
+
+</html>

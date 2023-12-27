@@ -1,0 +1,13 @@
+    @font-face {
+        font-family: lato;
+        src: url("./fonts/Lato-Bold\ \(2\).ttf");
+    }
+    
+    @media only screen and (max-width:766px) and (min-width:300px) {
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            display: none;
+        }
+    }
