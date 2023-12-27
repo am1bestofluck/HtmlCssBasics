@@ -256,3 +256,7 @@ body {
     letter-spacing: 0em;
     text-align: left;
 }
+
+#WHY {
+    display: none;
+}

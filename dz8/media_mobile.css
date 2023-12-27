@@ -1,13 +1,228 @@
-    @font-face {
-        font-family: lato;
-        src: url("./fonts/Lato-Bold\ \(2\).ttf");
+/* @font-face {
+    font-family: lato;
+    src: url("./fonts/Lato-Bold\ \(2\).ttf");
+} */
+
+@media only screen and (max-width:766px) and (min-width:250px) {
+    html {
+        background-color: none;
+        /* ну рем так рем */
+        font-size: 62.5%;
     }
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        display: inherit;
+    }
+    .header,
+    .frontline__banner,
+    .offers_thumbnail,
+    .Du_Soleil_xD,
+    .more {
+        display: none;
+    }
+    .header,
+    .frontline__banner,
+    .offers_thumbnail,
+    .Du_Soleil_xD,
+    .more {
+        min-width: 100%;
+    }
+    .icons {
+        max-width: 4.5rem;
+        min-height: 3.8rem;
+    }
+    .basket,
+    .self_abstract {
+        display: none;
+    }
+    .header {
+        min-height: 7.4rem;
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        gap: 25%;
+    }
+    .search {
+        max-width: 33%;
+    }
+    .frontline__banner {
+        min-width: none;
+        width: 100%;
+        min-height: 36.3rem;
+        display: flex;
+    }
+    .alcash {
+        display: none;
+    }
+    .frontline__motto {
+        max-width: 26.3rem;
+        min-height: 7rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .margin--hot {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: center;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .margin--hot__big {
+        display: block;
+        width: 100%;
+        font-family: Lato;
+        font-size: 3.7rem;
+        font-weight: 700;
+        line-height: 4.4rem;
+        letter-spacing: 0em;
+        text-align: left;
+        grid-column: 1/-1;
+    }
+    .margin--hot__small--black,
+    .margin--hot__small--pink {
+        font-family: Lato;
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 2.4rem;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .offers_thumbnail {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 3fr) 1fr;
+        min-width: calc(100% - 3.2rem);
+        margin-left: 1.6rem;
+        margin-right: 1.6rem;
+        gap: 3.2rem;
+    }
+    .offers_item {
+        display: block;
+        min-height: 25vh;
+    }
+    /* пробовал сделать только фон тёмным а шрифт ярким, но "устал"*/
+    /* .num0::before {
     
-    @media only screen and (max-width:766px) and (min-width:300px) {
-        * {
-            margin: 0;
-            padding: 0;
-            border: 0;
-            display: none;
-        }
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-image: url("img/mobile/blo_mob.png");
+        filter: brightness(70%); 
+    } */
+    .num0__text--discount {
+        font-family: Lato;
+        font-size: 2.4rem;
+        font-weight: 700;
+        line-height: 2.9rem;
+        letter-spacing: 0em;
+        text-align: center;
     }
+    .num0__text--target {
+        font-family: Lato;
+        font-size: 1.8rem;
+        font-weight: 900;
+        line-height: 2.2rem;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .num0__text--discount,
+    .num0__text--target {
+        display: block;
+    }
+    .num0 {
+        background-image: unset;
+        overflow: hidden;
+        background-image: url("img/mobile/blo_mob.png");
+    }
+    .num1 {
+        background-image: url("img/mobile/male_mob.png");
+    }
+    .num2 {
+        background-image: url("img/mobile/kid_mob.png");
+    }
+    .wide {
+        background-image: url("img/mobile/bags_mob.png");
+    }
+    .Du_Soleil_xD {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        min-width: calc(100% - 1.6rem);
+        margin-left: 0.8rem;
+        margin-right: 0.8rem;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .Du_Soleil_xD--header {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .Du_Soleil_xD--header__main {
+        font-family: Lato;
+        font-size: 3rem;
+        font-weight: 400;
+        line-height: 3.6rem;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .Du_Soleil_xD--header__sub {
+        font-family: Lato;
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 1.7rem;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .oh_my_lol {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .oh_my_lol_pic {
+        width: 100%;
+        height: 100%;
+    }
+    .punchline {
+        font-family: Lato;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .boring_details {
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .price_b4_taxes {
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+}
